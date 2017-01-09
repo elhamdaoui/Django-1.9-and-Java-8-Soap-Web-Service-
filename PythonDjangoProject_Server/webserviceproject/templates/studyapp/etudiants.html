@@ -1,0 +1,18 @@
+{% extends "studyapp/accueil.html" %}
+
+{% block title %}Page Etudiants{% endblock %}
+{% block content %}
+<table>
+    <caption> Les étudiants </caption>
+    <thead>
+         <tr style="background-color: #ffff47;">
+         <th>Nom</th><th>Prénom</th><th>CNE</th><th>CIN</th><th>Date de naissance</th><th>Date ajout</th><th>Téléphone</th><th>Email</th>
+          </tr>
+     </thead>
+    {% for etd in etudiants%}
+        <tr style="background-color: #00ff47;">
+         <td>{{etd.nom}}</td><td>{{etd.prenom}}</td><td>{{etd.cne}}</th><td>{{etd.cin}}</th><td>{{etd.ddn}}</td><td>{{etd.date_ajt}}</td><td>{{etd.telephone}}</td><td>{{etd.email}}</td>
+          </tr>
+    {% endfor %}
+</table>
+{% endblock%}
