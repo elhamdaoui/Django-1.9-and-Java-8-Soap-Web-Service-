@@ -9,6 +9,8 @@ import java.awt.BorderLayout;
 import java.awt.Color;
 import java.awt.Graphics;
 import java.awt.Graphics2D;
+import java.awt.event.MouseAdapter;
+import java.awt.event.MouseEvent;
 import javax.swing.ImageIcon;
 import javax.swing.JPanel;
 
@@ -32,6 +34,14 @@ public class PaneCenter extends JPanel {
         paneCorrespondanteButton.setOpaque(false);
         //paneCorrespondanteButton.setBackground(Color.red);
         add(paneCorrespondanteButton, BorderLayout.CENTER);
+        final PaneCenter pnthis=this;//référence
+        this.addMouseMotionListener(new MouseAdapter() {
+                    @Override
+                    public void mouseEntered(MouseEvent e) {
+                        System.out.println("Hello: entred");
+                        pnthis.monProjet.cacherPaneDroite=true;
+                    }
+                });
 
     }
 

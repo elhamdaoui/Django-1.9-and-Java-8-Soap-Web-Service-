@@ -3,8 +3,8 @@
   <services/>
   <clients>
     <client name="WsClient">
-      <wsdl-url>http://127.0.0.1:8000/studyapp/etudiantws/?wsdl</wsdl-url>
-      <local-wsdl-file>127.0.0.1_8000/studyapp/etudiantws/.wsdl</local-wsdl-file>
+      <wsdl-url>http://norutuamh.pythonanywhere.com/studyapp/etudiantws/?wsdl</wsdl-url>
+      <local-wsdl-file>norutuamh.pythonanywhere.com/studyapp/etudiantws/.wsdl</local-wsdl-file>
       <package-name forceReplace="true">com.etudiant</package-name>
       <catalog-file>catalog.xml</catalog-file>
       <wsimport-options>
@@ -22,7 +22,7 @@
         </wsimport-option>
         <wsimport-option>
           <wsimport-option-name>wsdlLocation</wsimport-option-name>
-          <wsimport-option-value>http://127.0.0.1:8000/studyapp/etudiantws/?wsdl</wsimport-option-value>
+          <wsimport-option-value>http://norutuamh.pythonanywhere.com/studyapp/etudiantws/?wsdl</wsimport-option-value>
         </wsimport-option>
         <wsimport-option>
           <wsimport-option-name>xnocompile</wsimport-option-name>

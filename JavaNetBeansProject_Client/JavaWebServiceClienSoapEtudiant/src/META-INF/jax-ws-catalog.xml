@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog" prefer="system">
-    <system systemId="http://127.0.0.1:8000/studyapp/etudiantws/?wsdl" uri="xml-resources/web-service-references/WsClient/wsdl/127.0.0.1_8000/studyapp/etudiantws/.wsdl"/>
+    <system systemId="http://norutuamh.pythonanywhere.com/studyapp/etudiantws/?wsdl" uri="wsdl/norutuamh.pythonanywhere.com/studyapp/etudiantws/.wsdl"/>
 </catalog>

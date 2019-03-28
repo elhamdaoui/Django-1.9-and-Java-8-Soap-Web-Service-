@@ -18,8 +18,8 @@
     </target>
     <target name="wsimport-client-WsClient" depends="wsimport-init">
         <mkdir dir="${build.generated.dir}/jax-wsCache/WsClient"/>
-        <property name="wsdl-WsClient" location="xml-resources/web-service-references/WsClient/wsdl/127.0.0.1_8000/studyapp/etudiantws/.wsdl"/>
-        <wsimport sourcedestdir="${build.generated.dir}/jax-wsCache/WsClient" destdir="${build.generated.dir}/jax-wsCache/WsClient" wsdl="${wsdl-WsClient}" catalog="catalog.xml" encoding="${source.encoding}" extension="true" verbose="true" fork="false" wsdlLocation="http://127.0.0.1:8000/studyapp/etudiantws/?wsdl" xnocompile="true" xendorsed="true" package="com.etudiant">
+        <property name="wsdl-WsClient" location="xml-resources/web-service-references/WsClient/wsdl/norutuamh.pythonanywhere.com/studyapp/etudiantws/.wsdl"/>
+        <wsimport sourcedestdir="${build.generated.dir}/jax-wsCache/WsClient" destdir="${build.generated.dir}/jax-wsCache/WsClient" wsdl="${wsdl-WsClient}" catalog="catalog.xml" encoding="${source.encoding}" extension="true" verbose="true" fork="false" wsdlLocation="http://norutuamh.pythonanywhere.com/studyapp/etudiantws/?wsdl" xnocompile="true" xendorsed="true" package="com.etudiant">
             <depends file="${wsdl-WsClient}"/>
             <produces dir="${build.generated.dir}/jax-wsCache/WsClient"/>
         </wsimport>
