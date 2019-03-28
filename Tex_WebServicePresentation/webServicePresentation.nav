@@ -1,0 +1,72 @@
+\beamer@endinputifotherversion {3.36pt}
+\headcommand {\slideentry {0}{0}{1}{1/1}{}{0}}
+\headcommand {\beamer@framepages {1}{1}}
+\headcommand {\sectionentry {1}{Introduction}{2}{Introduction}{0}}
+\headcommand {\beamer@sectionpages {1}{1}}
+\headcommand {\beamer@subsectionpages {1}{1}}
+\headcommand {\beamer@subsectionentry {0}{1}{1}{2}{Web Service}}\headcommand {\beamer@subsectionpages {2}{1}}
+\headcommand {\slideentry {1}{1}{1}{2/2}{Web Service}{0}}
+\headcommand {\beamer@framepages {2}{2}}
+\headcommand {\slideentry {1}{1}{2}{3/6}{Web Service}{0}}
+\headcommand {\beamer@framepages {3}{6}}
+\headcommand {\beamer@subsectionentry {0}{1}{2}{7}{Etudiant web service}}\headcommand {\beamer@subsectionpages {2}{6}}
+\headcommand {\slideentry {1}{2}{1}{7/12}{Etudiant web service}{0}}
+\headcommand {\beamer@framepages {7}{12}}
+\headcommand {\sectionentry {2}{Outils}{13}{Outils}{0}}
+\headcommand {\beamer@sectionpages {2}{12}}
+\headcommand {\beamer@subsectionpages {7}{12}}
+\headcommand {\beamer@subsectionentry {0}{2}{1}{13}{Framework Django}}\headcommand {\beamer@subsectionpages {13}{12}}
+\headcommand {\slideentry {2}{1}{1}{13/16}{Framework Django}{0}}
+\headcommand {\beamer@framepages {13}{16}}
+\headcommand {\slideentry {2}{1}{2}{17/17}{Framework Django}{0}}
+\headcommand {\beamer@framepages {17}{17}}
+\headcommand {\beamer@subsectionentry {0}{2}{2}{18}{Soaplib}}\headcommand {\beamer@subsectionpages {13}{17}}
+\headcommand {\slideentry {2}{2}{1}{18/19}{Soaplib}{0}}
+\headcommand {\beamer@framepages {18}{19}}
+\headcommand {\beamer@subsectionentry {0}{2}{3}{20}{Java Client Web Service}}\headcommand {\beamer@subsectionpages {18}{19}}
+\headcommand {\slideentry {2}{3}{1}{20/21}{Java Client Web Service}{0}}
+\headcommand {\beamer@framepages {20}{21}}
+\headcommand {\sectionentry {3}{Impl\IeC {\'e}mentation}{22}{Impl\IeC {\'e}mentation}{0}}
+\headcommand {\beamer@sectionpages {13}{21}}
+\headcommand {\beamer@subsectionpages {20}{21}}
+\headcommand {\beamer@subsectionentry {0}{3}{1}{22}{Cot\IeC {\'e} fournisseur}}\headcommand {\beamer@subsectionpages {22}{21}}
+\headcommand {\slideentry {3}{1}{1}{22/22}{Cot\IeC {\'e} fournisseur}{0}}
+\headcommand {\beamer@framepages {22}{22}}
+\headcommand {\slideentry {3}{1}{2}{23/23}{Cot\IeC {\'e} fournisseur}{0}}
+\headcommand {\beamer@framepages {23}{23}}
+\headcommand {\slideentry {3}{1}{3}{24/24}{Cot\IeC {\'e} fournisseur}{0}}
+\headcommand {\beamer@framepages {24}{24}}
+\headcommand {\slideentry {3}{1}{4}{25/25}{Cot\IeC {\'e} fournisseur}{0}}
+\headcommand {\beamer@framepages {25}{25}}
+\headcommand {\beamer@subsectionentry {0}{3}{2}{26}{Cot\IeC {\'e} Consommateur}}\headcommand {\beamer@subsectionpages {22}{25}}
+\headcommand {\slideentry {3}{2}{1}{26/26}{Cot\IeC {\'e} Consommateur}{0}}
+\headcommand {\beamer@framepages {26}{26}}
+\headcommand {\slideentry {3}{2}{2}{27/27}{Cot\IeC {\'e} Consommateur}{0}}
+\headcommand {\beamer@framepages {27}{27}}
+\headcommand {\slideentry {3}{2}{3}{28/28}{Cot\IeC {\'e} Consommateur}{0}}
+\headcommand {\beamer@framepages {28}{28}}
+\headcommand {\slideentry {3}{2}{4}{29/29}{Cot\IeC {\'e} Consommateur}{0}}
+\headcommand {\beamer@framepages {29}{29}}
+\headcommand {\slideentry {3}{2}{5}{30/30}{Cot\IeC {\'e} Consommateur}{0}}
+\headcommand {\beamer@framepages {30}{30}}
+\headcommand {\slideentry {3}{2}{6}{31/31}{Cot\IeC {\'e} Consommateur}{0}}
+\headcommand {\beamer@framepages {31}{31}}
+\headcommand {\slideentry {3}{2}{7}{32/32}{Cot\IeC {\'e} Consommateur}{0}}
+\headcommand {\beamer@framepages {32}{32}}
+\headcommand {\slideentry {3}{2}{8}{33/33}{Cot\IeC {\'e} Consommateur}{0}}
+\headcommand {\beamer@framepages {33}{33}}
+\headcommand {\sectionentry {4}{D\IeC {\'e}monstration}{34}{D\IeC {\'e}monstration}{0}}
+\headcommand {\beamer@sectionpages {22}{33}}
+\headcommand {\beamer@subsectionpages {26}{33}}
+\headcommand {\slideentry {4}{0}{1}{34/34}{}{0}}
+\headcommand {\beamer@framepages {34}{34}}
+\headcommand {\sectionentry {5}{Conclusion}{35}{Conclusion}{0}}
+\headcommand {\beamer@sectionpages {34}{34}}
+\headcommand {\beamer@subsectionpages {34}{34}}
+\headcommand {\slideentry {5}{0}{1}{35/35}{}{0}}
+\headcommand {\beamer@framepages {35}{35}}
+\headcommand {\beamer@partpages {1}{35}}
+\headcommand {\beamer@subsectionpages {35}{35}}
+\headcommand {\beamer@sectionpages {35}{35}}
+\headcommand {\beamer@documentpages {35}}
+\headcommand {\def \inserttotalframenumber {22}}

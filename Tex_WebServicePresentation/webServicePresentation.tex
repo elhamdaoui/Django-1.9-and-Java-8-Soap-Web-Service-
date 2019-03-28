@@ -1,0 +1,173 @@
+\documentclass{beamer}
+\usepackage[frenchb]{babel}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{xcolor}
+\usepackage{graphicx}
+\usepackage{multimedia}%pour les videos
+\usepackage{url}
+\usepackage{amsmath}
+\usepackage{dsfont}
+\usepackage{colortbl}
+\usepackage{listings}
+
+
+\usepackage{url}
+
+\usefonttheme[onlymath]{serif}
+\usetheme{Warsaw}
+\definecolor{colorPython}{HTML}{3778AE}
+\definecolor{backgroundcolor}{HTML}{008000}
+\usecolortheme[named=backgroundcolor]{structure}
+\colorlet{titre}{teal}%definir une couleur
+\geometry{papersize={190mm,120mm}}
+
+
+\definecolor{imprs}{rgb}{0.20,0.90,0.50}
+\definecolor{equa}{rgb}{0.20,0.40,0.90}
+\definecolor{deepblue}{rgb}{0,0,0.5}
+\definecolor{deepred}{rgb}{0.6,0,0}
+\definecolor{deepgreen}{rgb}{0,0.5,0}
+\definecolor{deepred}{rgb}{0.5,0,0}
+\definecolor{pythoncol}{HTML}{AA4433}
+\definecolor{mygreen}{HTML}{12AA65}
+\definecolor{urlcolor}{HTML}{0600AA}
+\definecolor{greensympy}{HTML}{3B5526}
+\definecolor{case1}{HTML}{FFFF88}
+\definecolor{case2}{HTML}{88FFFF}
+\definecolor{cell1}{HTML}{F7FF3C}
+\definecolor{cell2}{HTML}{54F98D}
+\definecolor{colname}{HTML}{FF2244}
+
+%\useoutertheme{sidebar}%une sidebar (une barre latéral) et avec un titre.
+%\usefonttheme{serif}%la police du thème
+% \usetheme{default} -> A utiliser dans un premier temps
+% \usetheme{Warsaw} -> A utiliser dans un second temps
+\logo{\includegraphics[width=0.7cm,height=0.7cm]{images/fsdm.png}}
+\setbeamercolor{logo}{bg=green}
+%\setbeamertemplate{background canvas}[vertical shading] [top=yellow,bottom=teal]%font degradé
+%\setbeamertemplate{blocks}[rounded][shadow=false]
+\title[Django|Java SOAP Web Service]{
+%\includegraphics[width=1.5cm,height=1.5cm]{images/python.png}
+\textbf{Django|Java SOAP Web Service}
+%\includegraphics[width=1.5cm,height=1.5cm]{images/python.png}
+}
+%\titlegraphic{-}
+\author[Abdelmajid EL HAMDAOUI \& Ikram EL KARFI]{\textbf{\textcolor{deepred}{EL KARFI Ikram}}\\
+\& \\
+\textbf{\textcolor{deepred}{EL HAMDAOUI Abdelmajid}}}
+\institute{FSDM\\[0.5cm]
+\textcolor{deepblue}{Sous la supervision de \textbf{Mr. Ahmed Zinedine}}
+}%elhamdaouiabdelmajid@gmail.com
+\date{\today}
+
+%code Python --- Style----
+\lstset{
+language=Python,
+basicstyle=\ttfamily\small,
+commentstyle=\color{red},
+otherkeywords={self,False,True,with,global},             % Add keywords here
+keywordstyle=\small\color{deepblue},
+emph={property,classmethod,__init__,_get_cne,_set_cne,__str__,bind},          % Custom highlighting
+emphstyle=\small\color{deepred},    % Custom highlighting style
+stringstyle=\color{deepgreen},
+frame=tb,                         % Any extra options here
+showstringspaces=false ,         % 
+}
+%end Python
+
+
+\begin{document}
+\begin{frame}
+%\includegraphics[width=0.7cm,height=0.7cm]{images/fsdm.png}
+\titlepage
+\end{frame}
+
+\addtobeamertemplate{footline}{\insertframenumber/\inserttotalframenumber}
+
+
+\input{sections/introduction}
+\input{sections/implementation}
+\input{sections/demonstration}
+%\input{sections/implementationPython}
+%\input{sections/distributionsPython}
+%\input{sections/frameworkspython}
+%\input{sections/pythonscientifique}
+	%\input{sections/progsystemPython}
+	%\input{sections/devmobilpython}
+	%\input{sections/pythonsecurity}
+	%\input{sections/networkpython}
+%\input{sections/bigdataPython}
+%\input{sections/pratiquepython}
+\input{sections/concl_pres}
+
+%(EXPOSION) éclaircissage des données des groupes par integration des graphes
+%\setbeamertemplate{background}[default]%aucien fond
+%
+%\begin{frame}[label=labele]
+%\frametitle{Introduction}
+%c'est l'introduction \textcolor{titre}{titre}
+%\begin{itemize}
+%\item Python
+%\item automates
+%\item PADA
+%\end{itemize}
+%\end{frame}
+%\begin{frame}[fragile]
+%\hyperlinkmovie[showcontrols]{videos/vid.mp4}{videos/vid.mp4}
+%\movie[autostart]{}{videos/vid.mp4}
+%\url{videos/vid.mp4}
+%toto titi
+%\end{frame}
+%\begin{frame}
+%\frametitle{BLOCK}
+%\begin{block}{Bloc standard}
+%Un bloc tout simple,
+%par défaut un texte
+%sur un fond de couleur
+%qui dépend, bien sûr,
+%du thème choisi.
+%\end{block}
+%\end{frame}
+%\begin{frame}
+%\frametitle{BLOCK}
+%\begin{block}{Un bloc normal}
+%Texte du block \texttt{block}
+%\end{block}
+%\begin{alertblock}{Un bloc très alerte}
+%Texte du block \texttt{alertblock}
+%\end{alertblock}
+%\begin{exampleblock}{Un bloc exemplaire}
+%Exemple de block \texttt{exampleblock}
+%\end{exampleblock}
+%\end{frame}
+%\begin{frame}
+%\frametitle{colonnes}
+%\begin{columns}
+%\begin{column}{6cm}
+%Contenu de ma première colonne
+%\end{column}
+%\begin{column}{6cm}
+%Contenu de ma deuxième colonne
+%\end{column}
+%\end{columns}
+%\end{frame}
+%\begin{frame}
+%\frametitle{animations}
+%Voici ma première idée, je cause, je cause...
+%\pause Voici la deuxième idée que j'affiche quand je suis prête à en causer.
+%\pause Voici la troisième idée après réflexion.
+%\end{frame}
+%\begin{frame}
+%\frametitle{animations}
+%\begin{itemize}
+%\item<3-> l'élément de liste apparaîtra depuis
+%la couche numéro 3.
+%\item<2-> l'élément de liste apparaîtra
+%en gras sur la couche 2 puis normalement.
+%\item<1-> \textbf<2>{l'élément de liste apparaîtra} depuis
+%la couche numéro 1.
+%\end{itemize}
+%\end{frame}
+
+\end{document}
